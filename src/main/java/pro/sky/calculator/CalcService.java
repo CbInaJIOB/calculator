@@ -2,8 +2,8 @@ package pro.sky.calculator;
 
 public interface CalcService {
     String calculator();
-    String plus(Integer num1, Integer num2);
-    String minus(Integer num1, Integer num2);
-    String multiply(Integer num1, Integer num2);
-    String divide(Integer num1, Integer num2);
+    String plus(Double num1, Double num2);
+    String minus(Double num1, Double num2);
+    String multiply(Double num1, Double num2);
+    String divide(Double num1, Double num2);
 }
